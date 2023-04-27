@@ -1,0 +1,9 @@
+.container{
+    margin: 0;
+    padding: 100px;
+    margin: auto;
+}
+.form-group{
+    margin: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
+}

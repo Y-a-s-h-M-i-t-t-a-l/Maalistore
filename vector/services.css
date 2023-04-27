@@ -1,0 +1,59 @@
+.row{
+    margin: 0
+}
+header{
+    margin-bottom: 50px;
+}
+#a-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 50px;
+    width: 75%;
+    margin-top: 25px;
+    margin-left: auto;
+}
+.navbar-nav{
+    background: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255));
+    border-radius: 8px;
+}
+.navbar-nav li{
+    padding: 0 15px;
+}
+.current-page{
+    border-top: 6px solid rgb(115, 167, 20);
+}
+header a{
+    margin: 0 25px;
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+}
+.container{
+    margin: 0;
+    padding: 200px;
+    margin: auto;
+}
+#y-main{
+    height: 800px;
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)), url(ServicesBG.png);
+}
+.y-services div{
+    margin: auto;
+}
+.y-services img{
+    height: 180px;
+    padding: 10px 20px;
+    float: left;
+}
+.col-md-4{
+    padding: 0;
+}
+.y-footer-img{
+    height: 250px;
+}
+#y-footer-logo{
+    margin-top: 25px;
+    height: 100px;
+}
