@@ -1,9 +1,22 @@
 .container{
-    margin: 0;
-    padding: 100px;
+    padding: 50px;
     margin: auto;
 }
+.form-control{
+    margin: 15px;
+    border-radius: 9px;
+    box-shadow: -8px 0px 6px 0px rgba(131, 131, 131, 0.22),
+                0px -1.5px 6px 0px rgba(131, 131, 131, 0.22),
+                4.5px 4.5px 6px 0px rgba(131, 131, 131, 0.22);
+}
+h3{
+    color: green;
+    justify-content: center;
+    align-items: center;
+}
+.col-7{
+    margin-left: auto;
+}
 .form-group{
-    margin: 10px;
-    box-shadow: 10px 10px 8px 10px #888888;
+    margin-bottom: 38px;
 }
