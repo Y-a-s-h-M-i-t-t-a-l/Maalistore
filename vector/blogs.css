@@ -9,8 +9,3 @@ body{
 #y-in-main{
     background: linear-gradient(rgba(187, 187, 187, 0.753),rgba(202, 202, 202, 0.747));
 }
-@media screen and (max-width:992px) {
-    body{
-        background-image: none;
-    }
-}
