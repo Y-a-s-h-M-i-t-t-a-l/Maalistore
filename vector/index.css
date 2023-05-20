@@ -17,8 +17,6 @@
     background-color: white;
 }
 .y-main-container{
-    width: 90%;
-    margin: 10px auto;
     background-color: rgba(255, 255, 255, 0.842);
     padding: 25px;
     border-radius: 25px;
@@ -38,7 +36,7 @@
 }
 #y-about-photo{
     height: 240px;
-    padding: 10px 20px;
+    padding: 10px;
 }
 .y-main-icon{
     margin: auto;
@@ -50,5 +48,8 @@
 @media screen and (max-width: 768px) {
     .y-survey-photo{
         display: none;
+    }
+    #y-main{
+        padding: 20px;
     }
   }
