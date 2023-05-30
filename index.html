@@ -31,12 +31,12 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-md">
+            <nav class="navbar navbar-expand-lg">
                 <a class="mx-2 navbar-brand" href="index.html">
                         <img src="vector/logo-lg.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars"></i> Menu
                 </button>
                 <div class="collapse navbar-collapse" id="collapsiblenavbar">
                     <ul class="navbar-nav mx-auto">
@@ -49,12 +49,41 @@
                 </div>
             </nav>
         </header>
-        <div class="y-header">
-
+        <div id="y-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#y-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#y-carousel" data-slide-to="1"></li>
+              <li data-target="#y-carousel" data-slide-to="2"></li>
+              <li data-target="#y-carousel" data-slide-to="3"></li>
+              <li data-target="#y-carousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="vector/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="vector/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="vector/3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="vector/4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="vector/5.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#y-carousel" data-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#y-carousel" data-slide="next">
+                <i class="fas fa-chevron-right"></i>
+            </a>
         </div>
         <div id="y-main">
             <div class="container y-main-container mb-4">
-                <h2 class="y-main-heading mx-auto mb-4">JOIN THE COMMUNITY</h2>
+                <h2 class="y-main-heading mx-auto mb-4">FILL THE FORM</h2>
                 <div class="row y-main-form text-center">
                     <div class="col-6 my-auto">
                         <h3>GrowGreen</h3>
@@ -68,11 +97,13 @@
                 <div class="row">
                     <img src="vector/about-photo.png" id="y-about-photo" class="col-md-4" alt="">
                     <p class="text-justify col-md-8">
-                      We are a team of passionate gardeners, and we want to share our love for plants with you.
-                       Bringing you our experience, our skills, our knowledge in taking care of plants, we strive to help you plant parents to make that dream-garden come true.
-                        Be it kitchen gardens, plant nurseries, succulent gardens, indoor aesthetics, outdoor spaces, old plants in need of care, we bring you the best tools, pots & planters, organic virgin seeds, and many exquisite exotic plants. 
-                        We have everything to get you started; we are not just a company, we are a community who share a passion for plants, and a dream for a greener tomorrow; small efforts lead to big changes. Join us today and discover the joy of gardening made easy, we welcome you to our family, our team, MAALI.
-
+                        We are MAALI, a team of passionate gardeners and plant lovers who want to share our knowledge and experience with you. 
+                        Whether you are looking for tips on how to grow your own vegetables, flowers, herbs, or succulents, or you need some inspiration for your indoor or outdoor space, we have you covered. 
+                        We also offer a range of products and services to help you create and maintain your dream garden. 
+                        From seeds and tools to pots and planters, we have everything you need to get started. 
+                        And if you need some expert advice or guidance, we are always here to help. 
+                        MAALI is more than just a website, it is a community of like-minded people who share a common passion for gardening and plants. 
+                        Join us today and discover the joy of gardening with MAALI!
                     </p>
                 </div>
             </div>
@@ -112,7 +143,7 @@
         </div>
         <footer id="y-footer" class="row">
             <img src="vector/footer-left.png" class="col-md-4 y-footer-img" alt="">
-            <div class="text-center col-md-4" >
+            <div class="text-center col-md-4">
                 <img src="vector/logo-sh.png" alt="" id="y-footer-logo">
                 <h5>Follow us</h5>
                 <i class="fab fa-facebook"></i>
